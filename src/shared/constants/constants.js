@@ -1,6 +1,7 @@
 export const API_URLS = {
-    accessTokenAPI: 'http://localhost:4000/getAccessToken', //comment this when project is on production
+    //accessTokenAPI: 'http://localhost:4000/getAccessToken', //comment this when project is on production
     //accessTokenAPI: '/getAccessToken', //comment this when project is on local
+    accessTokenAPI: 'https://property-portal.herokuapp.com/getAccessToken', //comment this when project is on local
     propertyDataAPI: 'https://cloudie--pp.sandbox.my.salesforce.com/services/apexrest/PP_Property_Portal_API'
 };
 
