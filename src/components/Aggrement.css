@@ -1,0 +1,625 @@
+.form-width {
+    width: 100%;
+    /* background: rgb(194,194,196); */
+    /* background: linear-gradient(90deg, rgb(162, 159, 159) 0%, rgba(44,44,52,1) 37%);     */
+    background-color: white;
+    min-height: 100vh;
+    top: 0px;
+    position: absolute;
+    margin-top: 7vh;
+
+}
+
+.aggrementcontainer {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    border: 0.1px solid rgb(224, 220, 220)
+        /* box-shadow: 5px 10px 20px rgb(255, 255, 255);     */
+}
+
+.formHeader {
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 650;
+    padding-top: 2vw;
+}
+
+.itemlabel {
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.itemlabel:hover {
+    color: rgb(36, 34, 34);
+    font-weight: 900;
+}
+
+.formItem {
+    padding-top: 3vh;
+}
+
+.formItem ul { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 3vh;
+    margin: 0 4vh;
+}
+
+.formItem li {
+    margin-top: 5vh;
+}
+
+.iteminput input {
+    width: 9rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 2vh;
+    background-color: transparent;
+    /* transition: all 0.2s; */
+
+}
+
+.iteminput input:hover {
+    width: 10rem;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.formItem input:focus {
+    outline: none;
+    border-bottom: 3px solid black
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    .formItem ul {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .formItem ul {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 50px) {
+    .formItem ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 4550px) and (min-width: 800px) {
+    .formItem ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.submitForm {
+    text-align: left;
+}
+
+.submitForm button {
+    margin-left: 4vh;
+    font-weight: 500;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}
+
+.submitForm button:hover {
+    margin-left: 4vh;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}
+
+@media only screen and (max-width: 550px) and (min-width: 100px) {
+    .submitForm {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .submitForm button {
+        border-radius: 7px;
+        border: 1px solid black;
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+        background-color: transparent;
+        margin-top: 7vh;
+        margin-bottom: 3vh;
+    }
+}
+
+.lessorandlesse {
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    background: linear-gradient(45deg, #002a70, transparent);
+    padding-left: 1vh;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+    ;
+}
+
+.iteminput textarea {
+    width: 100%;
+}
+
+.RentalInfo {
+    padding-top: 8vh;
+}
+
+.RentalInfo ul {
+    padding-top: 3vh;
+    display: grid;
+    /* grid-gap: 10vh;
+    grid-template-columns: repeat(auto-fit, 20vh);
+    grid-template-rows: repeat(2, 10px);   */
+    grid-template-columns: 2fr 2fr;
+    list-style: none;
+}
+
+.RentalInfo li {
+    padding-top: 6vh;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 100px) {
+    .RentalInfo ul {
+        display: grid;
+        /* grid-gap: 10vh;
+        grid-template-columns: repeat(auto-fit, 20vh);
+        grid-template-rows: repeat(2, 10px);   */
+        grid-template-columns: 1fr;
+        grid-gap: 5vh 0vh;
+        list-style: none;
+    }
+}
+
+.RentalInfo input {
+    padding-top: 2vh;
+    width: 10rem;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+
+}
+
+.RentalInfo input:hover {
+    width: 10rem;
+    border: none;
+    border-bottom: 3px solid black;
+
+}
+
+.RentalInfo input:focus {
+    outline: none;
+    border-bottom: 3px solid black;
+
+}
+
+.EquipInfo {
+    margin-top: 4vh;
+    border: 1px solid rgb(175, 165, 165);
+    border-radius: 0.6vh;
+    min-height: 10vh;
+    text-align: center;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.EquipInfo table {
+    text-align: center;
+    width: 100%;
+}
+
+.EquipInfo td {
+    text-align: center;
+    width: 33%;
+    /* border: 1px solid black; */
+}
+
+.EquipInfo input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    background-color: transparent;
+}
+
+.EquipInfo input:focus {
+    outline: none;
+}
+
+.EquipInfo span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.termcondition {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*------------------------------POST PROPERTY CSS-----------------------------*/
+
+.uploadproperty-maindiv {
+    margin-top: 2vh;
+    display: flex;
+    width: 100%;
+}
+
+
+.uploadproperty-div2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.uploadproperty-div2::-webkit-scrollbar{
+    width: 10px;
+}
+.field-label {
+    font-size: 1.1rem;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: monospace;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: 500;
+}
+
+.postproperty-labels {
+    font-size: 1.9rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3vh;
+}
+
+.uploadproperty-div2 input {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 1vh;
+    height: 2.8rem;
+    border: 0.5px solid rgb(175, 165, 165);
+    margin-top: 1vh;
+    border-radius: 2px;
+    padding-left: 1vh;
+}
+
+.uploadproperty-div2 input:focus {
+    box-shadow: 0 0 7px aqua;
+}
+
+.uploadproperty-div2 select {
+    width: 100%;
+    background-color: white;
+    height: 3rem;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    border: 0.5px solid rgb(175, 165, 165);
+    border-radius: 2px;
+    padding-left: 0.7vh;
+}
+
+.uploadproperty-div2 select:focus {
+    outline: rgb(175, 165, 165);
+    box-shadow: 0 0 10px aqua;
+}
+
+.uploadproperty-div2 option {
+    border-radius: 8px;
+}
+
+.uploadproperty-div2 textarea {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1vh;
+    padding-top: 0.5vh;
+}
+
+.uploadproperty-div2 textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px aqua;
+}
+
+.galerypost {
+    float: left;
+    width: 100%;
+    background: #42acf1;
+    padding: 60px;
+    text-align: center;
+}
+
+.drag h2 {
+    /* font-size:28px; */
+    font-size: 4vh;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    /* border: 1px dashed #ffffff; */
+    /* padding: 40px; */
+}
+
+.drag div {
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border: 1px dashed #ffffff;
+    padding: 40px;
+}
+
+.custom-input {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.custom-input>span {
+    height: auto;
+    width: 35vw !important;
+    max-width: 29vh;
+    padding: 10px;
+    background-color: #31708f;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-input>input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 250px;
+}
+
+input[type="checkbox"] {
+    /* width: 1.1vw; */
+    width: 2vh  !important;
+    height:auto;
+    bottom: 0 !important;
+
+}
+
+input[type="checkbox"]:focus {
+    box-shadow: none;
+
+}
+
+.Amenities-table tr td div {
+    margin-bottom: -3vh;
+    color: black;
+    /* margin-right: 3vh; */
+}
+
+.Amenities-table {
+    margin-bottom: 4vh;
+}
+
+
+.justifycenter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submitbtn {
+    margin-top: 3vh;
+    background-color: #29abff;
+    color: white;
+    width: 150px;
+    height: 50px;
+    line-height: 45px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    font-family: revert;
+}
+
+.submitbtn:hover {
+    border: 2px solid #29abff;
+    background-color: transparent;
+    color: black;
+    font-weight: 400;
+
+}
+
+.postReq-mainDiv {
+    background-color: transparent;
+    height: 100%;   
+    width: 100%;
+    /* position: fixed; */
+    background-color: rgb(22, 22, 22);
+    overflow: auto;
+    /* text-align: center; */
+}
+.postReq-mainDiv::-webkit-scrollbar {
+    width: 10px;
+}
+.uploadproperty-maindiv::-webkit-scrollbar {
+    width: 10px;
+}
+.postReq-Modal {
+    width: 50%;
+    /* height: 45vh; */
+    border: 0.2px solid transparent;
+    background-color: white;
+    margin-top: 13vh;
+    border-radius: 11px;
+    box-shadow: 0 0 7px transparent;
+    z-index: 4;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 1px) {
+    .postReq-Modal {
+        width: 50%;
+        /* height: 60vh; */
+        border: 1px solid black;
+        background-color: white;
+        margin-top: 15vh;
+        border-radius: 11px;
+    }
+}
+
+.postReq-Modalbtn {
+    margin: 2%;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 440;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;;
+    /* font-family:'Times New Roman', Times, serif; */
+    transition: all 0.5s;
+}
+
+#postmodalbtn1 {
+    background-color: transparent;
+    border: 0.5px solid black;
+}
+
+#postmodalbtn2 {
+    background-color: #29abff;
+    border: 0.5px solid rgb(78, 77, 77);
+}
+
+#postmodalbtn1:hover {
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    border: 1px solid transparent;
+}
+
+#postmodalbtn2:hover {
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.postRequirment-component-mainDiv {
+    width: 100%;
+    background-color: white;
+}
+
+.postRequirment-component-mainDiv input {
+    border: 0.2px solid rgb(109, 109, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    font-size: 1rem;
+    transition: all 0.4s;
+    margin-left: 1vh;
+    border-radius: 3px;
+}
+
+.postRequirment-component-mainDiv select {
+    border: 0.2px solid rgb(109, 109, 109);
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    font-size: 1rem;
+    transition: all 0.4s;
+    border-radius: 3px;
+}
+
+.postRequirment-component-mainDiv input:hover,textarea:hover,
+select:hover {
+    box-shadow: 0 0 7px black;
+}
+
+.postRequirment-component-mainDiv input:focus {
+    box-shadow: 0 0 7px black;
+}
+
+.postRequirment-component-mainDiv label {
+    font-size: 1.1rem;
+    color: black;
+    margin-top: 1vh;
+    font-family: "Nunito", sans-serif;;
+}
+
+.postRequirment-component-mainDiv button {
+    background-color: white;
+    color: black;
+    border: 0.3px solid black;
+    transition: all 0.5s;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;;
+
+}
+
+.postRequirment-component-mainDiv button:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 400;
+    border: 0.1px solid gray;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: all 0.5;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* padding: 6px 14px; */
+    z-index: 1;
+    transition: all 0.5s;
+    background-color: rgb(240, 238, 238);
+    padding-top: 8px;
+  }
+  .dropdown-content li{
+    list-style: none;
+    padding :3px 0;
+    /* padding-bottom: 4px; */
+    /* border-bottom: 1px solid black; */
+  }
+
+/*   
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+  #seeMorebtn:hover{
+    display: block !important;
+  }
+  .uploadproperty-div2 input:hover{
+    box-shadow: 0 0 7px black;
+  }

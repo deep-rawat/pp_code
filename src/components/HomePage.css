@@ -1,0 +1,10 @@
+.property-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.c-pointer:hover{
+    cursor: pointer;
+    color:'white';
+}
